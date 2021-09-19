@@ -156,7 +156,7 @@ git branch -D master
 git push -f origin master
 ```
 
-这时会提示什么认证窗口, 我选择取消. 之后github和本地的commit历史就全部清除了.
+这时会提示什么认证窗口, 我选择取消两次. 之后github和本地的commit历史就全部清除了.
 
 
 
