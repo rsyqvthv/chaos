@@ -38,7 +38,7 @@ fastboot reboot
 
 但是oneplus 3 的rom确不是这个格式.
 
-![[oneplus3rom-format.png]]
+![oneplus3rom-format](assets/oneplus3rom-format.png)
 
 尝试使用冒险的办法. 
 

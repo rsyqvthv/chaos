@@ -163,7 +163,7 @@ ctrl+click进入图片进行改名, 改名后会自动update所有引用.
 
 
 
-![[testing.png]]
+![testing](assets/testing.png)
 
 
 网络图片可以直接拖拽,
@@ -175,18 +175,16 @@ ctrl+click进入图片进行改名, 改名后会自动update所有引用.
 
 [Obsidian Sync](https://publish.obsidian.md/help/Licenses+%26+add-on+services/Obsidian+Sync) - Obsidian Help - Obsidian Publish, 让本地的vault和远端的vault进行同步. 可惜: Obsidian Sync™ is a **paid** service.
 
-# 问题
-
-- 它的图片格式是使用wiki+plugin, 为了简化显示, 但是造成了通用性的不便. 似乎正在解决, 开发新的plugin去转换. [Use standard MD links for images - Feature requests - Obsidian Forum](https://forum.obsidian.md/t/use-standard-md-links-for-images/260)
-- 无法关联开启markdown文件. 受累于他的的vault管理.
-- 打开预览的时候无法自动预览文档的当前位置, 也没有快捷方式滚动, 这里比较浪费时间.
-- 是不是没有menubar?
-
 # 手机端
 
 ![Screenshot_20210919_151410](assets/Screenshot_20210919_151410.jpg)
 
 遇到这个问题给程序访问权限, 他需要file来执行.
 
+# 想要解决的问题
+#question : 如何自定义编辑显示和预览显示的css? 我想拉开一些headings的距离.
+[Getting comfortable with Obsidian CSS - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/getting-comfortable-with-obsidian-css/133)这里揭示了如何使用ctrl+shift+i打开inspect来找到css
+
+不知道[css snippets](https://help.obsidian.md/Advanced+topics/Customizing+CSS)是怎么使用?
 
 
