@@ -173,4 +173,24 @@ git push -f origin master
 
 # 在同步中忽略一些文件
 
+![](assets/20210919_172441_GitHubDesktop.png)
+
+看到了有忽略某文件同步的功能, 尝试学习了一下. [官方的帮助](https://git-scm.com/docs/gitignore)我看不懂, 这里[倒是很清楚](https://www.atlassian.com/git/tutorials/saving-changes/gitignore).  其中 Ignoring a previously committed file 这个部分正是我需要的: 
+
+原来, 忽略文件规则只能过滤之后产生的文件, 而之前已经在repo中的文件不受影响. 如果想操作repo中已经有的文件, 需要使用 `--cached` 参数:
+
+
+```
+$ echo debug.log >> .gitignore  
+
+$ git rm --cached debug.log  
+rm 'debug.log'  
+
+$ git commit -m "Start ignoring debug.log"
+```
+
+- 建立一个规则
+- 在repo中删除这个文件, 但在本地文件中保留.
+- commit
+
 
